@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Evolution</title>
+    <link rel="stylesheet" href="./InteractiveRange.css">
+</head>
+<body>
+  <div class="body">
+    <h1>Human Evolution</h1>
+    <div class="controller">
+      <div class="controls-container">
+        <!-- slider here -->
+        <div class="slider-container">
+          <input type="range" min="0" max="100" value="50" class="range-slider" id="evolutionRange">
+        </div>
+        <div class="button-container">
+          <!-- button here -->
+          <button class="button" id="readyButton">Ready?</button>
+          <img id="GreatCat" src="./GreatCat.jpg" class="hidden-image"/>
+          <img id="MagicaBoi" src="./MagicaBoi.JPG" class="hidden-image1"/>
+        </div>
+      </div>
+      <div class="video-container">
+        <div>
+          <video src="./EvolutionAnimt.mp4"></video>
+        </div>
+      </div>
+    </div>
+    <script src="./InteractiveRange.js"></script>
+    <!-- <script src="./magicCat.js"></script> -->
+  </div>
+</body>
+</html>
